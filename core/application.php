@@ -44,13 +44,14 @@ $configuration = [
 	'BLOGMETA.HOME' => 'Home',
 	'BLOGMETA.MAIL' => 'mail@example.org',
 	'BLOGMETA.LANG' => 'en',
-	'DATABASE.HOSTNAME' => 'localhost',
+	'DATABASE.HOSTNAME' => 'bmt-db-hh.mysql.database.azure.com',
 	'DATABASE.BASENAME' => 'blog',
-	'DATABASE.USERNAME' => 'blog',
-	'DATABASE.PASSWORD' => '',
-	'TEMPLATE.NAME' => 'default',
+	'DATABASE.USERNAME' => 'woocc@bmt-db-hh',
+	'DATABASE.PASSWORD' => 'Ghkd6586',
+	'TEMPLATE.NAME' => 'standard',
 	'TEMPLATE.LANG' => 'en',
 	'ADMIN.TEMPLATE' => 'admin',
+	'ADMIN.PASSWORD' => 'administrator',
 	'ADMIN.LANGUAGE' => 'en',
 	'PATHINFO.PROT' => $_SERVER['REQUEST_SCHEME'] ?? 'https',
 	'PATHINFO.HOST' => $_SERVER['HTTP_HOST'] ?? 'localhost',
@@ -119,6 +120,7 @@ if(defined('ADMINISTRATION') AND ADMINISTRATION === TRUE) {
 	Application::set('CORE.LANGUAGE', Application::get('ADMIN.LANGUAGE'));
 	Application::set('TEMPLATE.NAME', Application::get('ADMIN.TEMPLATE'));
 	Application::set('TEMPLATE.LANG', Application::get('ADMIN.LANGUAGE'));
+	Application::set('TEMPLATE.PASSWORD', Application::get('ADMIN.PASSWORD'));
 }
 
 #===============================================================================
@@ -186,3 +188,4 @@ if(Application::get('CORE.SEND_304') === TRUE AND !defined('ADMINISTRATION')) {
 		}
 	}
 }
+?>
