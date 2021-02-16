@@ -26,4 +26,5 @@ Application::set('DATABASE.PASSWORD', 'Ghkd6586');
 Application::set('TEMPLATE.NAME', 'standard');
 Application::set('TEMPLATE.LANG', Application::get('CORE.LANGUAGE'));
 Application::set('ADMIN.LANGUAGE', Application::get('CORE.LANGUAGE'));
+// test
 ?>
