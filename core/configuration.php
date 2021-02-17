@@ -26,7 +26,7 @@ Application::set('DATABASE.BASENAME', 'blog');
 //Application::set('DATABASE.USERNAME', 'woocc@bmt-db-hh');
 //Application::set('DATABASE.USERNAME', 'woocc@bmt-db-hh-1core');
 Application::set('DATABASE.USERNAME', 'misuser');
-Application::set('DATABASE.PASSWORD', '!Qazewsx3edc');
+Application::set('DATABASE.PASSWORD', '!Qaz2wsx3edc');
 Application::set('TEMPLATE.NAME', 'standard');
 Application::set('TEMPLATE.LANG', Application::get('CORE.LANGUAGE'));
 Application::set('ADMIN.LANGUAGE', Application::get('CORE.LANGUAGE'));
