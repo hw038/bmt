@@ -1,6 +1,6 @@
 <?php
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
-# Standard: Internationalization [DE]         Thomas Lange <code@nerdmind.de>] #
+# Internationalization [DE]                  [Thomas Lange <code@nerdmind.de>] #
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
 #                                                                              #
 # This file contains template internationalization strings for the DE language #
@@ -69,4 +69,3 @@ $LANGUAGE['403_heading_desc'] = 'Der Zugriff auf diese Ressource wurde dir verwe
 #===============================================================================
 $LANGUAGE['404_heading_text'] = 'Nicht gefunden';
 $LANGUAGE['404_heading_desc'] = 'Die angeforderte Ressource konnte nicht gefunden werden.';
-?>

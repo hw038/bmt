@@ -1,6 +1,6 @@
 <?php
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
-# Standard: Internationalization [EN]         Thomas Lange <code@nerdmind.de>] #
+# Internationalization [EN]                  [Thomas Lange <code@nerdmind.de>] #
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
 #                                                                              #
 # This file contains template internationalization strings for the EN language #
@@ -69,4 +69,3 @@ $LANGUAGE['403_heading_desc'] = 'You are denied to access this resource because 
 #===============================================================================
 $LANGUAGE['404_heading_text'] = 'Not found';
 $LANGUAGE['404_heading_desc'] = 'The requested resource could not be found.';
-?>
