@@ -24,10 +24,12 @@ Application::set('DATABASE.HOSTNAME', 'bmt-db-hh-4core.mysql.database.azure.com'
 #Application::set('DATABASE.HOSTNAME', '20.41.97.93');
 Application::set('DATABASE.BASENAME', 'blog');
 #Application::set('DATABASE.USERNAME', 'woocc@bmt-db-hh');
-Application::set('DATABASE.USERNAME', 'woocc@bmt-db-hh-4core');
+#Application::set('DATABASE.USERNAME', 'woocc@bmt-db-hh-4core');
 #Application::set('DATABASE.USERNAME', 'misuser');
-Application::set('DATABASE.PASSWORD', 'Ghkd6586');
+Application::set('DATABASE.USERNAME', 'root');
+#Application::set('DATABASE.PASSWORD', 'Ghkd6586');
 #Application::set('DATABASE.PASSWORD', '!Qaz2wsx3edc');
+Application::set('DATABASE.PASSWORD', 'rP@ssw0rd');
 Application::set('TEMPLATE.NAME', 'standard');
 Application::set('TEMPLATE.LANG', Application::get('CORE.LANGUAGE'));
 Application::set('ADMIN.LANGUAGE', Application::get('CORE.LANGUAGE'));
